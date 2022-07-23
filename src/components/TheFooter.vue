@@ -81,7 +81,7 @@ export default {
         background-repeat: no-repeat;
         background-position: right;
         background-size: cover;
-        padding: 40px 0;
+        padding-top: 40px;
         h3 {
             color:white;
             margin: 10px 0;
