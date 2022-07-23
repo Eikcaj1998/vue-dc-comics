@@ -1,19 +1,25 @@
 <template>
-  <div id="app">
-    <MainHeader />
-  </div>
+    <div id="root">
+      <TheHeader />
+      <TheMain />
+      <TheFooter/>
+    </div>
 </template>
 
 <script>
-import MainHeader from './components/MainHeader.vue';
+import TheHeader from './components/TheHeader.vue'
+import TheMain from './components/TheMain.vue'
+import TheFooter from './components/TheFooter.vue'
 export default {
-    name: 'App',
+  name: 'App',
   components: {
-    MainHeader,
+    TheHeader,
+    TheMain,
+    TheFooter,
   }
 }
 </script>
 
 <style lang="scss">
-@import './assets/sass/style.scss'
+@import "./assets/sass/style.scss";
 </style>

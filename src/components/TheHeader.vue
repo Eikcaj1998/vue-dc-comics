@@ -82,10 +82,10 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    height: 80px;
+    height: 120px;
+    margin: 20px auto;
     
     #header-flex{
-        height: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -104,9 +104,17 @@ header {
             padding: 10px;
             margin-right: 10px;
             text-transform: uppercase;
-            font-size: 10px;
+            font-size: 13px;
             font-weight: bolder;
+            a{
+
+              &:hover,
+              &:active{
+                color: dodgerblue;
+                border-bottom: 5px solid dodgerblue;
+              }
+            }
+          }
         }
-    }
 }
 </style>
