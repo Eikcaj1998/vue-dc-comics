@@ -127,6 +127,7 @@ export default {
 <style lang='scss' scoped>
 main {
   background-color: black;
+  z-index: 1;
 }
 
 .jumbotron {
